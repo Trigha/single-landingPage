@@ -24,11 +24,11 @@ function Navbar() {
                 Finmod.id
               </a>
             </div>
-            <div className="flex justify-end">
+            <div className="flex justify-end mx-5 lg:mx-10 xl:mx-16 ">
               <button
                 id="burger"
                 name="burger"
-                className="block absolute right-10 lg:hidden"
+                className="block absolute right-10 lg:hidden md:-mx-32 top-5"
                 onClick={gantiShape}
               >
                 <span className="Hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
@@ -72,7 +72,7 @@ function Navbar() {
                       Login
                     </a>
                   </li>
-                  <button className="bg-white rounded-full hover:bg-teal-400  hover:text-white py-2 px-4 border">
+                  <button className="bg-white rounded-full hover:bg-teal-400  hover:text-white py-2 px-4 border transition duration-300 ease-in-out">
                     Sign In
                   </button>
                 </ul>
