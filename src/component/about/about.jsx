@@ -5,6 +5,9 @@ import iconShield from '../../img/Shield.png';
 import iconPanah from '../../img/Vector.png';
 import iconPen from '../../img/Edit.png';
 import iconDollar from '../../img/Dollar.png';
+import bgAbout from '../../img/Group.png';
+import bgAbout2 from '../../img/Group103.png';
+import bgAbout3 from '../../img/Group3.png';
 
 function About() {
   return (
@@ -22,7 +25,13 @@ function About() {
           perusahaan tersebut
         </p>
       </div>
-
+      <div className="hidden lg:block">
+        <img
+          src={bgAbout}
+          className="absolute w-1/4 h-auto top-3/4 left-[58%]"
+          alt="bg-about"
+        />
+      </div>
       <div className="p-5 lg:flex lg:justify-around">
         <div className="grid lg:grid-cols-3 gap-12 lg:gap-0">
           {/* icon 1 */}
@@ -174,6 +183,48 @@ function About() {
               Learn more
             </p>
           </div>
+        </div>
+      </div>
+      {/* section about 2 */}
+      <div className="hidden lg:block">
+        <img
+          src={bgAbout3}
+          className="absolute w-1/4 h-auto top-[170%]"
+          alt="bg-about"
+        />
+      </div>
+      <div className="flex">
+        <img
+          src={bgAbout2}
+          alt="about"
+          className="hidden md:block mx-auto w-1/3 h-1/2"
+        />
+
+        <div className="flex flex-col mx-auto">
+          <h1 className="font-bold text-center md:text-left text-black text-3xl">
+            Platform Sangat Mudah
+          </h1>
+          <h1 className="font-bold text-center md:text-left text-black text-3xl">
+            Untuk Digunakan
+          </h1>
+          <p className="font-medium text-center md:text-left text-sm text-slate-400 mt-7">
+            Finmod merupakan satu - satunya platform penilaian online menyeluruh
+          </p>
+          <p className="font-medium text-center md:text-left text-sm text-slate-400">
+            untuk startup yang ada di Indonesia dengan metode penilaian yang
+          </p>
+          <p className="font-medium text-center md:text-left text-sm text-slate-400">
+            dilakukan dari berbagai sudut pandang jika diperlukan, Anda dapat
+          </p>
+          <p className="font-medium text-center md:text-left text-sm text-slate-400">
+            memutuskan untuk menggunakan subset dari 5 metode yang
+          </p>
+          <p className="font-medium text-center md:text-left text-sm text-slate-400">
+            tersedia untuk mendapatkan hasil yang komprehensif
+          </p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md mt-10 w-1/2">
+            Beli Sekarang
+          </button>
         </div>
       </div>
     </div>
