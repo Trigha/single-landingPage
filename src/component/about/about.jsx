@@ -9,6 +9,8 @@ import bgAbout from '../../img/Group.png';
 import bgAbout2 from '../../img/Group103.png';
 import bgAbout3 from '../../img/Group3.png';
 import startUp from '../../img/StartupLife.png';
+import imgPeople from '../../img/imagePPL.png';
+import imgCentang from '../../img/close1.png';
 
 function About() {
   return (
@@ -186,6 +188,8 @@ function About() {
           </div>
         </div>
       </div>
+      {/* end section about 1 */}
+
       {/* section about 2 */}
       <div className="hidden lg:block">
         <img
@@ -228,6 +232,8 @@ function About() {
           </button>
         </div>
       </div>
+      {/* end section about 2 */}
+
       {/* section about 3 */}
       <div className="flex ">
         <div className="flex flex-col mx-auto mt-20 md:mt-36 lg:mt-40">
@@ -264,6 +270,8 @@ function About() {
           className="hidden md:block md:mt-20 w-1/3 h-1/2 mx-auto"
         />
       </div>
+      {/* end section about 3 */}
+
       {/* section about 4 */}
       <div className="flex justify-center items-center mt-24">
         <div className="bg-gray-300 shadow-lg w-full h-80 md:h-96 py-10 col-span-1 mx-auto">
@@ -320,6 +328,54 @@ function About() {
           </div>
         </div>
       </div>
+      {/* end section about 4 */}
+
+      {/* section about 5 */}
+      <img
+        src={imgCentang}
+        alt="about"
+        className="hidden md:block md:absolute md:ml-11 lg:ml-16 xl:ml-28 md:mt-10 md:w-1/6 md:h-1/12"
+      />
+      <div className="flex justify-center items-center mt-16">
+        <div className="flex flex-col">
+          <h1 className="font-extrabold text-2xl">Apa Kata Client</h1>
+          <p className="font-light text-sm text-slate-500 mt-3">
+            Kami mendengarkan masukan dan apresiasi dan client kami di seluruh
+          </p>
+          <p className="font-light text-sm text-slate-500">
+            dunia yang telah percaya terhadap kami
+          </p>
+        </div>
+      </div>
+      <div className="flex justify-center md:justify-around items-center mt-10">
+        <div className="flex flex-col">
+          <p className="italic text-center md:text-left font-medium text-md text-slate-500">
+            Finmod sangat membantu kamu untuk
+          </p>
+          <p className="italic text-center md:text-left font-medium text-md text-slate-500">
+            menyiapkan laporan Financial Model secara
+          </p>
+          <p className="italic text-center md:text-left font-medium text-md text-slate-500">
+            mudah dan lengkap yang dibutuhkan untuk
+          </p>
+          <p className="italic text-center md:text-left font-medium text-md text-slate-500">
+            fase Fundraising kami kepada para calon
+          </p>
+          <p className="italic text-center md:text-left font-medium text-md text-slate-500">
+            investor di perusahaan kami.
+          </p>
+          <h1 className="font-bold text-lg mt-3 md:text-left">Ardiansyah</h1>
+          <p className="text-slate-500 font-light text-xs md:text-left">
+            CEO, Tanimore
+          </p>
+        </div>
+        <img
+          src={imgPeople}
+          alt="people"
+          className="hidden md:block w-1/3 h-1/2 md:w-1/4 md:h-1/3"
+        />
+      </div>
+      {/* end section about 5 */}
     </div>
   );
 }
