@@ -11,6 +11,7 @@ import bgAbout3 from '../../img/Group3.png';
 import startUp from '../../img/StartupLife.png';
 import imgPeople from '../../img/imagePPL.png';
 import imgCentang from '../../img/close1.png';
+import Logos from '../../img/Logos.png';
 
 function About() {
   return (
@@ -31,7 +32,7 @@ function About() {
       <div className="hidden lg:block">
         <img
           src={bgAbout}
-          className="absolute w-1/4 h-auto top-3/4 left-[58%]"
+          className="absolute w-1/4 h-auto top-3/4 left-[75%]"
           alt="bg-about"
         />
       </div>
@@ -376,6 +377,29 @@ function About() {
         />
       </div>
       {/* end section about 5 */}
+
+      {/* section about 6 */}
+      <div className="hidden lg:block">
+        <img
+          src={bgAbout}
+          className="absolute w-1/4 h-auto  left-[75%]"
+          alt="bg-about"
+        />
+      </div>
+      <div className="flex justify-around items-center mt-32">
+        <div className="flex-col">
+          <h1 className="font-extrabold text-2xl text-left">Partner Kami</h1>
+          <p className="text-sm text-slate-500 font-normal mt-3 text-left">
+            Pelanggan yang menggunakan Finmod
+          </p>
+          <p className="text-sm text-slate-500 font-normal text-left">
+            untuk menilai perusahaan mereka.
+          </p>
+        </div>
+
+        <img src={Logos} alt="partner" className="w-1/2 md:w-1/2" />
+      </div>
+      {/* end section about 6 */}
     </div>
   );
 }
