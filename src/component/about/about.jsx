@@ -8,10 +8,11 @@ import iconDollar from '../../img/Dollar.png';
 import bgAbout from '../../img/Group.png';
 import bgAbout2 from '../../img/Group103.png';
 import bgAbout3 from '../../img/Group3.png';
+import startUp from '../../img/StartupLife.png';
 
 function About() {
   return (
-    <div className="pt-[50rem]">
+    <div className="pt-[50rem] h-full">
       <div className="mx-auto">
         <h1 className="font-bold text-3xl text-center">Mengapa Harus Kami</h1>
 
@@ -200,31 +201,123 @@ function About() {
           className="hidden md:block mx-auto w-1/3 h-1/2"
         />
 
-        <div className="flex flex-col mx-auto">
+        <div className="flex flex-col mx-auto mt-10">
           <h1 className="font-bold text-center md:text-left text-black text-3xl">
             Platform Sangat Mudah
           </h1>
           <h1 className="font-bold text-center md:text-left text-black text-3xl">
             Untuk Digunakan
           </h1>
-          <p className="font-medium text-center md:text-left text-sm text-slate-400 mt-7">
+          <p className="font-medium text-center md:text-left text-sm md:text-lg text-slate-400 mt-7">
             Finmod merupakan satu - satunya platform penilaian online menyeluruh
           </p>
-          <p className="font-medium text-center md:text-left text-sm text-slate-400">
+          <p className="font-medium text-center md:text-left text-sm md:text-lg text-slate-400">
             untuk startup yang ada di Indonesia dengan metode penilaian yang
           </p>
-          <p className="font-medium text-center md:text-left text-sm text-slate-400">
+          <p className="font-medium text-center md:text-left text-sm md:text-lg text-slate-400">
             dilakukan dari berbagai sudut pandang jika diperlukan, Anda dapat
           </p>
-          <p className="font-medium text-center md:text-left text-sm text-slate-400">
+          <p className="font-medium text-center md:text-left text-sm md:text-lg text-slate-400">
             memutuskan untuk menggunakan subset dari 5 metode yang
           </p>
-          <p className="font-medium text-center md:text-left text-sm text-slate-400">
+          <p className="font-medium text-center md:text-left text-sm md:text-lg text-slate-400">
             tersedia untuk mendapatkan hasil yang komprehensif
           </p>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md mt-10 w-1/2">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md mt-10 w-1/2 mx-auto md:mx-0">
             Beli Sekarang
           </button>
+        </div>
+      </div>
+      {/* section about 3 */}
+      <div className="flex ">
+        <div className="flex flex-col mx-auto mt-20 md:mt-36 lg:mt-40">
+          <h1 className="font-bold text-center md:text-left text-black text-3xl">
+            Kami Dipercaya banyak
+          </h1>
+          <h1 className="font-bold text-center md:text-left text-black text-3xl">
+            Startup & UMKM Indonesia
+          </h1>
+          <p className="font-medium text-center md:text-left text-sm lg:text-lg text-slate-400 mt-7">
+            Sudah banyak startup Indonesia yang mempercayai kami sebagai
+          </p>
+          <p className="font-medium text-center md:text-left text-sm lg:text-lg text-slate-400">
+            platform penilaian online untuk perusahaan mereka. Sekarang giliran
+          </p>
+          <p className="font-medium text-center md:text-left text-sm lg:text-lg text-slate-400">
+            anda untuk mengetahui seberapa berharganya perusahaan anda
+          </p>
+
+          <div className="flex justify-around md:justify-start mt-7">
+            <div className="flex flex-col md:mr-10">
+              <h1 className="text-blue-500 font-extrabold text-xl">130k+</h1>
+              <p className="text-slate-500 font-medium text-sm">Perusahaan</p>
+            </div>
+            <div className="flex flex-col">
+              <h1 className="text-blue-500 font-extrabold text-xl">100k+</h1>
+              <p className="text-slate-500 font-medium text-sm">Indonesia</p>
+            </div>
+          </div>
+        </div>
+        <img
+          src={startUp}
+          alt="about"
+          className="hidden md:block md:mt-20 w-1/3 h-1/2 mx-auto"
+        />
+      </div>
+      {/* section about 4 */}
+      <div className="flex justify-center items-center mt-24">
+        <div className="bg-gray-300 shadow-lg w-full h-80 md:h-96 py-10 col-span-1 mx-auto">
+          <div className="flex flex-col mx-auto py-4 md:py-7">
+            <h1 className="font-extrabold text-center  text-black text-2xl">
+              Di Berbagai Negara Sudah
+            </h1>
+            <h1 className="font-extrabold text-center  text-black text-2xl">
+              Menggunakan Finmod
+            </h1>
+            <p className="text-sm text-slate-600 text-center mt-5 font-normal">
+              Tidak hanya di Indonesia tapi beberapa perusahaan di negara lain
+            </p>
+            <p className="text-sm text-slate-600 text-center font-normal">
+              menggunakan findmod untuk mempelajari, memantau, dan
+            </p>
+            <p className="text-sm text-slate-600 text-center font-normal">
+              mengembangkan penilaian perusahaan mereka
+            </p>
+          </div>
+          <div className="flex justify-around py-7">
+            <div className="flex flex-col">
+              <h1 className="text-left font-extrabold text-2xl text-slate-700">
+                125.500
+              </h1>
+              <p className="text-left font-normal text-xs text-slate-700">
+                Asia
+              </p>
+            </div>
+            <div className="flex flex-col">
+              <h1 className="text-left font-extrabold text-2xl text-slate-700">
+                500
+              </h1>
+              <p className="text-left font-normal text-xs text-slate-700">
+                Eropa
+              </p>
+            </div>
+            <div className="flex flex-col">
+              <h1 className="text-left font-extrabold text-2xl text-slate-700">
+                500
+              </h1>
+              <p className="text-left font-normal text-xs text-slate-700">
+                Amerika
+              </p>
+            </div>
+            <div className="flex flex-col">
+              <h1 className="text-left font-extrabold text-2xl text-slate-700">
+                3.550
+              </h1>
+              <p className="text-left font-normal text-xs text-slate-700">
+                Oceania
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
